@@ -1,0 +1,165 @@
+
+
+  a:link,
+  a:visited{
+   text-decoration: none;
+  }
+
+  .modal{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   padding: 65px 55px 45px 5px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+	  margin-top: 20;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  .modal__content{
+   width: 30%;
+   height: 65%;
+   color: #2B7B78;
+   background-color: #DEF2F1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 60px 50px 40px 50px;
+  
+   border-radius: 1em;
+   opacity: 100%;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  #modal:target{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  #modal:target .modal__content{
+   opacity: 1;
+   visibility: visible;
+  }
+  
+  .modal__close{
+      color: #ff0000;
+   font-size: 2em;
+   position: absolute;
+   top: .5em;
+   right: 1em;
+  }
+
+  
+  .modal_content{
+   line-height: 1.5em;
+  }
+
+.modal-open{
+ display: inline-block;
+ color:3AAFA9;
+ background-color: #DEF2F1;
+ margin: 2em;
+}
+
+/*-----------------------------------------*/
+.modal1{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   padding: 65px 55px 45px 5px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   margin-top: 20;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  .modal__content1{
+   width: 30%;
+   height: 95%;
+   color: #2B7B78;
+   background-color: #DEF2F1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 60px 50px 40px 50px;
+  
+   border-radius: 1em;
+   opacity: 100%;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  #modal1:target{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  #modal1:target .modal__content1{
+   opacity: 1;
+   visibility: visible;
+  }
+   .modal_content1{
+   line-height: 1.5em;
+  }
+
+.modal-open1{
+ display: inline-block;
+ color:3AAFA9;
+ background-color: #DEF2F1;
+ margin: 2em;
+}
+/*LOGIN STYLE--------------------------------------------------------------------------*/
+
+.form-control {
+	position: relative;
+	margin: 20px 0;
+	width: 300px;
+}
+
+.form-control input {
+	border: 0;
+	border-bottom: 2px solid #333;
+	padding: 15px 0;
+	display: block;
+	font-size: 18px;
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+	transition: 0.1s ease-in;
+}
+
+.form-control input:focus, 
+.form-control input:valid {
+	border-bottom-color: darksalmon;
+	outline: none;
+}
+
+.form-control input:focus + label span ,
+.form-control input:valid + label span{
+	color: darksalmon;
+	transform: translateY(-30px);
+}
+
+.form-control label {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.form-control label span {
+	display: inline-block;
+	font-size: 18px;
+	min-width: 5px;
+	transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+

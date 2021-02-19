@@ -1,0 +1,14 @@
+SMAP
+chatbox_jsp.java
+JSP
+*S JSP
+*F
++ 0 chatbox.jsp
+chatbox.jsp
+*L
+5,37:48
+42,5:86
+46,3:91
+49,2:95
+50,10:97
+*E

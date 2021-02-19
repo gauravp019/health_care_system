@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+[class^=imghvr-]
+{font-family:Montserrat,sans-serif;position:relative;display:inline-block;margin:0;max-width:100%;color:#666;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:translateZ(0);transform:translateZ(0)}
+[class*=' imghvr-'] img,[class^=imghvr-]
+img{vertical-align:top;max-width:100%;}
+figcaption{background-color:#DEF2F1; position:absolute;top:40px;bottom:0px;left:0px;right:0px;align-content: center}
+[class*=' imghvr-'] h3,[class^=imghvr-] h3{font-weight:700;color:#333;margin-bottom:2px;}
+[class*=' imghvr-'],[class*=' imghvr-'] *,[class*=' imghvr-'] :after,[class*=' imghvr-'] :before,[class*=' imghvr-']:after,[class*=' imghvr-']:before,[class^=imghvr-],[class^=imghvr-] *,[class^=imghvr-] :after,[class^=imghvr-] :before,[class^=imghvr-]:after,[class^=imghvr-]:before{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .35s ease;transition:all .35s ease}
+[class*=' imghvr-push-']:hover figcaption,[class*=' imghvr-slide-']:hover figcaption,[class^=imghvr-push-]:hover figcaption,[class^=imghvr-slide-]:hover figcaption{-webkit-transform:translate(0,0);transform:translate(0,0)}
+.imghvr-push-up figcaption{-webkit-transform:translateY(120%);transform:translateY(120%)}.imghvr-push-up:hover img{-webkit-transform:translateY(-100%);transform:translateY(-100%)}
